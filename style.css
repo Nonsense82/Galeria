@@ -10,8 +10,12 @@ body{
   
 
 }
+main{
+    display: flex;
+}
 
 .galeria{
+    flex-flow: row wrap;
     padding: 25px 9%;
     text-align: center;
 

@@ -98,6 +98,8 @@ main{
  }
  
  footer{
+    display: flex;
+    flex-direction: row;
     background-color: rgb(153, 153, 153);
     margin-top: 10%;
  }

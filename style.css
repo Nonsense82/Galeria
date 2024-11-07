@@ -17,19 +17,20 @@ main{
 
 .galeria{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow:column;
     justify-content: center;
     padding: 25px 9%;
     text-align: center;
 
 }
-.galeria.heading{
-  font-size: 30px;
-  padding-bottom: 25%;
-  
+input{
+    margin: auto;
 }
+
  h1{
+    font-size: 30px;
     color: antiquewhite;
+    text-align: center;
 }
 .caption{
     font-size: 1.5em;
@@ -48,12 +49,12 @@ main{
 }
 
 #galeria-imagem{
-    display: grid;
-    /* ## display grid e grid template >>>> deixa as fotos lado a lado colunas */
-    grid-template-columns: repeat(3,1fr);
-    /* gap é espaco entre caixas */
-    gap: 10%;
-    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 25px;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 4%;
 
 }
 /* ## abre a pagina com efeito fade in ## */

@@ -21,13 +21,12 @@ body{
 
 }
 input{
-    width: auto;
+    width: fit-content;
     justify-content: center;
     margin: auto;
 }
 
 h1{
-    direction: inherit;
     margin: auto;
     font-size: 30px;
     color: rgb(255, 255, 255);

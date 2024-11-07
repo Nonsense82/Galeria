@@ -1,0 +1,10 @@
+@media screen and (min-width:720px){
+.galeria{
+      flex-direction: column;
+      
+    }
+input{
+        width: fit-content;
+      
+    }
+}

@@ -14,21 +14,20 @@ body{
 
 .galeria{
     display: flex;
-    flex-flow: row wrap;
-    padding: 25px;
-    justify-items: center;
-    margin: auto;
+    flex-flow: column;
+    margin-top: 20px;
     
     
 
 }
 input{
+    width: fit-content;
     justify-content: center;
     margin: auto;
 }
 
 h1{
-
+    text-align: center;
     margin: auto;
     font-size: 30px;
     color: rgb(255, 255, 255);

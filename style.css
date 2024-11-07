@@ -12,13 +12,13 @@ body{
 
 }
 main{
-   align-items: center;
-}
-
-.galeria{
     display: flex;
     flex-flow:row wrap;
     justify-content: center;
+    
+}
+
+.galeria{
     padding: 25px 9%;
     text-align: center;
 

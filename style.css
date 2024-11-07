@@ -6,28 +6,28 @@
 }
 
 body{
+
     background-color: rgb(0, 0, 0);
-    width: 100vw;
-    height: 100vh;
+    
 
 }
 
 .galeria{
     display: flex;
-    flex-flow: column;
+    flex-flow: row wrap;
     margin-top: 20px;
     
     
 
 }
 input{
-    width: fit-content;
+    width: auto;
     justify-content: center;
     margin: auto;
 }
 
 h1{
-    text-align: center;
+    direction: inherit;
     margin: auto;
     font-size: 30px;
     color: rgb(255, 255, 255);

@@ -11,26 +11,28 @@ body{
     height: 100vh;
 
 }
-main{
-    display: flex;
-    flex-flow:row wrap;
-    justify-content: center;
-    
-}
 
 .galeria{
-    padding: 25px 9%;
-    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 25px;
+    justify-items: center;
+    margin: auto;
+    
+    
 
 }
 input{
+    justify-content: center;
     margin: auto;
 }
 
- h1{
+h1{
+
+    margin: auto;
     font-size: 30px;
-    color: antiquewhite;
-    text-align: center;
+    color: rgb(255, 255, 255);
+    
 }
 .caption{
     font-size: 1.5em;
@@ -52,9 +54,8 @@ input{
     display: flex;
     flex-flow: row wrap;
     padding: 25px;
-    text-align: center;
-    justify-content: space-between;
     margin-top: 4%;
+    justify-content: center;
 
 }
 /* ## abre a pagina com efeito fade in ## */
